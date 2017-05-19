@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="3dp"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="1">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:background="#F5FFFA"
+        android:padding="5dp"
+        android:orientation="horizontal">
+        <ImageButton
+            android:id="@+id/img_Listen"
+            android:layout_gravity="center_vertical"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:cropToPadding="true"
+            android:background="@drawable/pressed_play"
+            android:scaleType="fitXY"/>
+        <ImageButton
+            android:id="@+id/img_Voice"
+            android:layout_width="50dp"
+            android:layout_gravity="center_vertical"
+            android:layout_height="50dp"
+            android:cropToPadding="true"
+            android:layout_marginLeft="50dp"
+            android:background="@drawable/pressed_voice"
+            android:scaleType="fitXY"/>
+    </LinearLayout>
+</LinearLayout>
